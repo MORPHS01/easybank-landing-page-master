@@ -1,4 +1,4 @@
-
+import iconOnline from "./images/icon-online.svg";
 
 function Body(){
 
@@ -21,7 +21,7 @@ function Body(){
                     <p className="smallText second_p">We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
                     <div className="features">
                         <div>
-                            <img src="./src/images/icon-online.svg"/>
+                            <img src={iconOnline}/>
                             <h3>Online Banking</h3>
                             <p className="smallText">Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.</p>
                         </div>
