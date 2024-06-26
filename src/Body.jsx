@@ -1,4 +1,13 @@
 import iconOnline from "./images/icon-online.svg";
+import iconBudgeting from "./images/icon-budgeting.svg";
+import iconOnboarding from "./images/icon-onboarding.svg";
+import iconApi from "./images/icon-api.svg";
+
+import imageCurrency from "./images/image-currency.jpg";
+import imageRestaurant from "./images/image-restaurant.jpg";
+import imagePlane from "./images/image-plane.jpg";
+import imageConfetti from "./images/image-confetti.jpg";
+
 
 function Body(){
 
@@ -26,17 +35,17 @@ function Body(){
                             <p className="smallText">Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.</p>
                         </div>
                         <div>
-                            <img src="./src/images/icon-budgeting.svg"/>
+                            <img src={iconBudgeting}/>
                             <h3>Simple Budgeting</h3>
                             <p className="smallText">See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits.</p>
                         </div>
                         <div>
-                            <img src="./src/images/icon-onboarding.svg"/>
+                            <img src={iconOnboarding}/>
                             <h3>Fast Onboarding</h3>
                             <p className="smallText">We don’t do branches. Open your account in minutes online and start taking control of your finances right away.</p>
                         </div>
                         <div>
-                            <img src="./src/images/icon-api.svg"/>
+                            <img src={iconApi}/>
                             <h3>Open API</h3>
                             <p className="smallText">Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.</p>
                         </div>
@@ -48,7 +57,7 @@ function Body(){
                 <h2 className="bigText">Latest Articles</h2>
                 <div className="cards">
                     <div className="card">
-                        <img src="./src/images/image-currency.jpg"/>
+                        <img src={imageCurrency}/>
                         <div>
                             <p className="articleAuthor">By Claire Robinson</p>
                             <p className="articleTitle">Receive money in any currency with no fees</p>
@@ -57,7 +66,7 @@ function Body(){
                     </div>
 
                     <div className="card">
-                        <img src="./src/images/image-restaurant.jpg"/>
+                        <img src={imageRestaurant}/>
                         <div>
                             <p className="articleAuthor">By Wilson Hutton</p>
                             <p className="articleTitle">Treat yourself without worrying about money</p>
@@ -66,7 +75,7 @@ function Body(){
                     </div>
 
                     <div className="card">
-                        <img src="./src/images/image-plane.jpg"/>
+                        <img src={imagePlane}/>
                         <div>
                             <p className="articleAuthor">By Ayonimofe Atoyebi</p>
                             <p className="articleTitle">Take your Easybank card wherever you go</p>
@@ -75,7 +84,7 @@ function Body(){
                     </div>
 
                     <div className="card">
-                        <img src="./src/images/image-confetti.jpg"/>
+                        <img src={imageConfetti}/>
                         <div>
                             <p className="articleAuthor">By Claire Robinson</p>
                             <p className="articleTitle">Our invite-only Beta accounts are now live!</p>
