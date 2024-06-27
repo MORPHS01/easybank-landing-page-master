@@ -1,3 +1,9 @@
+import logo from "./images/logo.svg";
+import iconFacebook from "./images/icon-facebook.svg";
+import iconYoutube from "./images/icon-youtube.svg";
+import iconTwitter from "./images/icon-twitter.svg";
+import iconPinterest from "./images/icon-pinterest.svg";
+import iconInstagram from "./images/icon-instagram.svg";
 
 function Footer(){
 
@@ -5,13 +11,13 @@ function Footer(){
         <div className="bg2">
             <footer>
                 <div className="logoSocials">
-                    <img src="./src/images/logo.svg" alt="Logo" className="footerLogo"/>
+                    <img src={logo} alt="Logo" className="footerLogo"/>
                     <ul className="socialIcons">
-                        <li><img className="footerIcon" src="./src/images/icon-facebook.svg" alt="facebook" /></li>
-                        <li><img className="footerIcon" src="./src/images/icon-youtube.svg" alt="youtube" /></li>
-                        <li><img className="footerIcon" src="./src/images/icon-twitter.svg" alt="twitter" /></li>
-                        <li><img className="footerIcon" src="./src/images/icon-pinterest.svg" alt="pinterest" /></li>
-                        <li><img className="footerIcon" src="./src/images/icon-instagram.svg" alt="instagram" /></li>
+                        <li><img className="footerIcon" src={iconFacebook} alt="facebook" /></li>
+                        <li><img className="footerIcon" src={iconYoutube} alt="youtube" /></li>
+                        <li><img className="footerIcon" src={iconTwitter} alt="twitter" /></li>
+                        <li><img className="footerIcon" src={iconPinterest} alt="pinterest" /></li>
+                        <li><img className="footerIcon" src={iconInstagram} alt="instagram" /></li>
                     </ul>
                 </div>
                 <ul className="footerNav">

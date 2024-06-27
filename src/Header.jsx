@@ -1,4 +1,6 @@
-import React, {useState, useRef} from "react";
+import React, { useRef } from "react";
+import logo from "./images/logo.svg";
+
 
 function Header(){
     const hamRef = useRef()
@@ -17,7 +19,7 @@ function Header(){
     return(
         <nav>
             <div className="left">
-                <img src="./src/images/logo.svg" alt="Logo" />
+                <img src={logo} alt="Logo" />
             </div>
 
             <ol className="navMenu" ref={menuRef}>
