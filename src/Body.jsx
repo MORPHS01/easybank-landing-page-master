@@ -1,3 +1,4 @@
+import imageMockups from "./images/image-mockups.png";
 import iconOnline from "./images/icon-online.svg";
 import iconBudgeting from "./images/icon-budgeting.svg";
 import iconOnboarding from "./images/icon-onboarding.svg";
@@ -20,7 +21,7 @@ function Body(){
                     <button className="req">Request Invite</button>
                 </div>
                 <div className="right">
-                    <img src="./images/image-mockups.png" alt="image-mockups"/>
+                    <img src={imageMockups} alt="image-mockups"/>
                 </div>
             </div>
 
