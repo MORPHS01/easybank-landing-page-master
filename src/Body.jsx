@@ -20,7 +20,7 @@ function Body(){
                     <button className="req">Request Invite</button>
                 </div>
                 <div className="right">
-                    <img src="./src/images/image-mockups.png" alt="image-mockups"/>
+                    <img src="./images/image-mockups.png" alt="image-mockups"/>
                 </div>
             </div>
 
